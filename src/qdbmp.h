@@ -36,15 +36,15 @@
 
 /* Type definitions */
 #ifndef UINT
-	#define UINT	unsigned long int
+#define UINT	unsigned long int
 #endif
 
 #ifndef USHORT
-	#define USHORT	unsigned short
+#define USHORT	unsigned short
 #endif
 
 #ifndef UCHAR
-	#define UCHAR	unsigned char
+#define UCHAR	unsigned char
 #endif
 
 
@@ -57,16 +57,16 @@
 /* Error codes */
 typedef enum
 {
-	BMP_OK = 0,				/* No error */
-	BMP_ERROR,				/* General error */
-	BMP_OUT_OF_MEMORY,		/* Could not allocate enough memory to complete the operation */
-	BMP_IO_ERROR,			/* General input/output error */
-	BMP_FILE_NOT_FOUND,		/* File not found */
-	BMP_FILE_NOT_SUPPORTED,	/* File is not a supported BMP variant */
-	BMP_FILE_INVALID,		/* File is not a BMP image or is an invalid BMP */
-	BMP_INVALID_ARGUMENT,	/* An argument is invalid or out of range */
-	BMP_TYPE_MISMATCH,		/* The requested action is not compatible with the BMP's type */
-	BMP_ERROR_NUM
+    BMP_OK = 0,				/* No error */
+    BMP_ERROR,				/* General error */
+    BMP_OUT_OF_MEMORY,		/* Could not allocate enough memory to complete the operation */
+    BMP_IO_ERROR,			/* General input/output error */
+    BMP_FILE_NOT_FOUND,		/* File not found */
+    BMP_FILE_NOT_SUPPORTED,	/* File is not a supported BMP variant */
+    BMP_FILE_INVALID,		/* File is not a BMP image or is an invalid BMP */
+    BMP_INVALID_ARGUMENT,	/* An argument is invalid or out of range */
+    BMP_TYPE_MISMATCH,		/* The requested action is not compatible with the BMP's type */
+    BMP_ERROR_NUM
 } BMP_STATUS;
 
 
